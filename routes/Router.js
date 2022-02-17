@@ -27,18 +27,37 @@ class Router{
     }
 
     templateBoxPanelData(data){
-        const $box_title = document.getElementById('box-title-state')
-        //const $CONTAINER = document.querySelector('#content-data')
-        $box_title.innerHTML=data.name
 
-        const $box_cost = document.getElementById('box-aprox-cost')
-        $box_cost.innerHTML=data.cost
+        document.getElementById('box-title-state').innerHTML=data.name
+        // $box_title.innerHTML=data.name
 
-        const $box_cost_renovate = document.getElementById('box-cost-renovate')
-        $box_cost_renovate.innerHTML=data.cost_total
+        document.getElementById('box-aprox-cost').innerHTML=data.cost
 
-        const $box_cost_profit = document.getElementById('box-cost-profit')
-        $box_cost_profit.innerHTML=data.profit
+        let $list_remodel = `<li class="k-notifications k-spacing-x1">
+                                Kitchen $ <span>${data.kitchen}</span>
+                            </li>
+                            <li class="k-notifications k-spacing-x1">
+                                Bathroom $ <span>${data.bathroom}</span>
+                            </li>
+                            <li class="k-notifications k-spacing-x1">
+                                bedroom <span>${data.bedroom}</span>
+                            </li>
+                            <li class="k-notifications k-spacing-x1">
+                                Living room <span>${data.living_Room}</span>
+                            </li>
+                            <li class="k-notifications k-spacing-x1">
+                                Dining room <span>${data.dining_Room}</span>
+                            </li>
+                            <li class="k-notifications k-spacing-x1">
+                                Master bathroom <span>${data.Master_Bathroom}</span>
+                            </li>`
+
+        document.getElementById('box-aprox-cost').innerHTML=$list_remodel
+
+        document.getElementById('box-cost-renovate').innerHTML=data.cost_total
+        
+        document.getElementById('box-cost-profit').innerHTML=data.profit
+        
     }
  
 }

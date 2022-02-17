@@ -48,14 +48,12 @@
 				"STATE_ID": "27",
 				"STATE_NAME": "Minnesota",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 25000,
-					"living Room":20000,
-					"dining Room" : 22000,
-					"Master Bathroom" : 25000
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 25000,
+				"living Room":20000,
+				"dining Room" : 22000,
+				"Master Bathroom" : 25000,
 				"cost_total" : 150000,
 				"profit":2000
 			},
@@ -433,14 +431,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 230000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 42000,
-					"bedroom" : 35000,
-					"living Room":20000,
-					"dining Room" : 22000,
-					"Master Bathroom" : 3
-				},
+				"bathroom": 26000,
+				"kitchen" : 42000,
+				"bedroom" : 35000,
+				"living Room":20000,
+				"dining Room" : 22000,
+				"Master Bathroom" : 3,
 				"cost_total" : 2250000,
 				"profit":5000
 			},
@@ -693,14 +689,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 189000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 42000,
-					"bedroom" : 35000,
-					"living Room":20000,
-					"dining Room" : 22000,
-					"Master Bathroom" : 340000
-				},
+				"bathroom": 26000,
+				"kitchen" : 42000,
+				"bedroom" : 35000,
+				"living Room":20000,
+				"dining Room" : 22000,
+				"Master Bathroom" : 340000,
 				"cost_total" : 165000,
 				"profit":2500
 			},
@@ -865,14 +859,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 214000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 42000,
-					"bedroom" : 35000,
-					"living Room":20000,
-					"dining Room" : 22000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 42000,
+				"bedroom" : 35000,
+				"living Room":20000,
+				"dining Room" : 22000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 213000,
 				"profit":1000
 			},
@@ -1137,14 +1129,12 @@
 				"STATE_ID": "16",
 				"STATE_NAME": "Idaho",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 288600,
 				"profit":2400
 			},
@@ -1436,14 +1426,12 @@
 				"STATE_ID": "53",
 				"STATE_NAME": "Washington",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 161000,
 				"profit":900
 			},
@@ -1649,14 +1637,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 364000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -1851,14 +1837,12 @@
 				"STATE_ID": "06",
 				"STATE_NAME": "California",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 110000,
 				"profit":2000
 			},
@@ -2072,14 +2056,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 289000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 263000,
 				"profit":1700
 			},
@@ -2200,14 +2182,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 375000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 356000,
 				"profit":2400
 			},
@@ -2350,14 +2330,12 @@
 				"STATE_ID": "35",
 				"STATE_NAME": "New Mexico",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 416000,
 				"profit":1400
 			},
@@ -2485,14 +2463,12 @@
 				"STATE_ID": "41",
 				"STATE_NAME": "Oregon",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 318000,
 				"profit":1200
 			},
@@ -2718,14 +2694,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 265000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -2818,14 +2792,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 376000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -2950,14 +2922,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 254000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -3166,14 +3136,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 315200,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -3454,14 +3422,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 190000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -3610,14 +3576,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 387000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -3924,14 +3888,12 @@
 				"STATE_ID": "31",
 				"STATE_NAME": "Nebraska",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -4145,14 +4107,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 290000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -4373,14 +4333,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 228000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -4579,14 +4537,12 @@
 				"STATE_ID": "22",
 				"STATE_NAME": "Louisiana",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -4840,14 +4796,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 398000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -5222,14 +5176,12 @@
 				"STATE_ID": "09",
 				"STATE_NAME": "Connecticut",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -5339,14 +5291,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 463000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -5489,14 +5439,12 @@
 				"STATE_ID": "33",
 				"STATE_NAME": "New Hampshire",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -5672,14 +5620,12 @@
 				"STATE_ID": "44",
 				"STATE_NAME": "Rhode Island",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -5771,14 +5717,12 @@
 				"STATE_ID": "50",
 				"STATE_NAME": "Vermont",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -5952,14 +5896,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 479000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -6118,14 +6060,12 @@
 				"STATE_ID": "12",
 				"STATE_NAME": "Florida",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -6343,14 +6283,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 368000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -6587,14 +6525,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 550000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -6811,14 +6747,12 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 510200,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -7013,14 +6947,12 @@
 				"STATE_ID": "17",
 				"STATE_NAME": "Illinois",
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
+				"bathroom": 26000,
+				"kitchen" : 32000,
+				"bedroom" : 35000,
+				"living Room":30000,
+				"dining Room" : 28000,
+				"Master Bathroom" : 33400,
 				"cost_total" : 3460000,
 				"profit":1800
 			},
@@ -10522,16 +10454,14 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 272000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
-				"cost_total" : 3460000,
-				"profit":1800
+				"bathroom": 34000,
+				"kitchen" : 47500,
+				"bedroom" : 23000,
+				"living_Room":16000,
+				"dining_Room" : 8900,
+				"Master_Bathroom" : 29800,
+				"cost_total" : 259000,
+				"profit":3450
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -10793,15 +10723,15 @@
 				"STATE_NAME": "Pennsylvania",
 				"isState": true,
 				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
+					"bathroom": 45000,
+					"kitchen" : 23500,
+					"bedroom" : 43800,
+					"living Room":37000,
+					"dining Room" : 26700,
+					"Master Bathroom" : 36860
 				},
-				"cost_total" : 3460000,
-				"profit":1800
+				"cost_total" : 308560,
+				"profit":2040
 			},
 			"id": 42,
 			"geometry": {
@@ -11014,14 +10944,14 @@
 				"cost": 364000,
 				"isState": true,
 				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
+					"bathroom": 32000,
+					"kitchen" : 45000,
+					"bedroom" : 32400,
+					"living Room":34000,
+					"dining Room" : 26300,
+					"Master Bathroom" : 43200
 				},
-				"cost_total" : 3460000,
+				"cost_total" : 357890,
 				"profit":1800
 			},
 			"geometry": {
@@ -11158,15 +11088,15 @@
 				"cost": 220000,
 				"isState": true,
 				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
+					"bathroom": 35000,
+					"kitchen" : 24000,
+					"bedroom" : 18000,
+					"living Room":34800,
+					"dining Room" : 31000,
+					"Master Bathroom" : 27400
 				},
-				"cost_total" : 3460000,
-				"profit":1800
+				"cost_total" : 2130000,
+				"profit":6300
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -11713,16 +11643,14 @@
 				"featureclass": "Admin-1 scale rank",
 				"cost": 412000,
 				"isState": true,
-				"remodel": {
-					"bathroom": 26000,
-					"kitchen" : 32000,
-					"bedroom" : 35000,
-					"living Room":30000,
-					"dining Room" : 28000,
-					"Master Bathroom" : 33400
-				},
-				"cost_total" : 3460000,
-				"profit":1800
+				"bathroom": 23100,
+				"kitchen" : 34800,
+				"bedroom" : 29000,
+				"living_Room":47000,
+				"dining_Room" : 36000,
+				"Master_Bathroom" : 36700,
+				"cost_total" : 403000,
+				"profit":2300
 			},
 			"geometry": {
 				"type": "MultiPolygon",

@@ -57,7 +57,7 @@ body { margin: 0; padding: 0; }
 .box-title {
     padding-bottom: 5px;
     width: 100%;
-    border-bottom: 1px solid #282e3869;
+    border-bottom: 1.3px solid #282e3869;
     margin-bottom: 15px;
 }
 
@@ -82,4 +82,14 @@ body { margin: 0; padding: 0; }
     background: #854af2
 }
 
-.message-map{color:#1a92ea;font-family: Poppins,Helvetica,Arial,sans-serif!important;font-weight: 400;}
+.box-font-size{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.box-remodel-font-size{
+    font-size: 1.2em;
+    font-weight: 450;
+}
+
+.message-map{color:#1a92ea;font-family: Poppins,Helvetica,Arial,sans-serif!important;font-weight: 600;}
