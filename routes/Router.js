@@ -40,16 +40,16 @@ class Router{
                                 Bathroom $ <span>${data.bathroom}</span>
                             </li>
                             <li class="k-notifications k-spacing-x1">
-                                bedroom <span>${data.bedroom}</span>
+                                bedroom $ <span>${data.bedroom}</span>
                             </li>
                             <li class="k-notifications k-spacing-x1">
-                                Living room <span>${data.living_Room}</span>
+                                Living room $ <span>${data.living_Room}</span>
                             </li>
                             <li class="k-notifications k-spacing-x1">
-                                Dining room <span>${data.dining_Room}</span>
+                                Dining room $ <span>${data.dining_Room}</span>
                             </li>
                             <li class="k-notifications k-spacing-x1">
-                                Master bathroom <span>${data.Master_Bathroom}</span>
+                                Master bathroom $ <span>${data.Master_Bathroom}</span>
                             </li>`
 
         document.getElementById('box-aprox-cost').innerHTML=$list_remodel
