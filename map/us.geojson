@@ -44,10 +44,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank", 
-				"costo": 152000,
+				"cost": 152000,
 				"STATE_ID": "27",
 				"STATE_NAME": "Minnesota",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 25000,
+					"living Room":20000,
+					"dining Room" : 22000,
+					"Master Bathroom" : 25000
+				},
+				"cost_total" : 150000,
+				"profit":2000
 			},
 			"id": 27,
 			"geometry": {
@@ -421,8 +431,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 230000,
-				"isState": true
+				"cost": 230000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 42000,
+					"bedroom" : 35000,
+					"living Room":20000,
+					"dining Room" : 22000,
+					"Master Bathroom" : 3
+				},
+				"cost_total" : 2250000,
+				"profit":5000
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -671,8 +691,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 189000,
-				"isState": true
+				"cost": 189000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 42000,
+					"bedroom" : 35000,
+					"living Room":20000,
+					"dining Room" : 22000,
+					"Master Bathroom" : 340000
+				},
+				"cost_total" : 165000,
+				"profit":2500
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -833,8 +863,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 214000,
-				"isState": true
+				"cost": 214000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 42000,
+					"bedroom" : 35000,
+					"living Room":20000,
+					"dining Room" : 22000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 213000,
+				"profit":1000
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -1093,10 +1133,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 290000,
+				"cost": 291000,
 				"STATE_ID": "16",
 				"STATE_NAME": "Idaho",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 288600,
+				"profit":2400
 			},
 			"id": 16,
 			"geometry": {
@@ -1382,10 +1432,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 170000,
+				"cost": 170000,
 				"STATE_ID": "53",
 				"STATE_NAME": "Washington",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 161000,
+				"profit":900
 			},
 			"id": 53,
 			"geometry": {
@@ -1587,8 +1647,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 364000,
-				"isState": true
+				"cost": 364000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -1777,10 +1847,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 130000,
+				"cost": 130000,
 				"STATE_ID": "06",
 				"STATE_NAME": "California",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 110000,
+				"profit":2000
 			},
 			"id": 6,
 			"geometry": {
@@ -1990,8 +2070,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 289000,
-				"isState": true
+				"cost": 289000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 263000,
+				"profit":1700
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -2108,8 +2198,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 375000,
-				"isState": true
+				"cost": 375000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 356000,
+				"profit":2400
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -2246,10 +2346,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 420000,
+				"cost": 420000,
 				"STATE_ID": "35",
 				"STATE_NAME": "New Mexico",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 416000,
+				"profit":1400
 			},
 			"id": 35,
 			"geometry": {
@@ -2371,10 +2481,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 330200,
+				"cost": 330200,
 				"STATE_ID": "41",
 				"STATE_NAME": "Oregon",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 318000,
+				"profit":1200
 			},
 			"id": 41,
 			"geometry": {
@@ -2596,8 +2716,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 265000,
-				"isState": true
+				"cost": 265000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -2686,8 +2816,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 376000,
-				"isState": true
+				"cost": 376000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -2808,8 +2948,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 254000,
-				"isState": true
+				"cost": 254000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -3014,8 +3164,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 315200,
-				"isState": true
+				"cost": 315200,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -3292,8 +3452,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 190000,
-				"isState": true
+				"cost": 190000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -3438,8 +3608,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 387000,
-				"isState": true
+				"cost": 387000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -3740,10 +3920,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 450000,
+				"cost": 450000,
 				"STATE_ID": "31",
 				"STATE_NAME": "Nebraska",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 31,
 			"geometry": {
@@ -3953,8 +4143,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 290000,
-				"isState": true
+				"cost": 290000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -4171,8 +4371,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 228000,
-				"isState": true
+				"cost": 228000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -4365,10 +4575,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 428000,
+				"cost": 428000,
 				"STATE_ID": "22",
 				"STATE_NAME": "Louisiana",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 22,
 			"geometry": {
@@ -4618,8 +4838,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 398000,
-				"isState": true
+				"cost": 398000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -4988,10 +5218,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 416300,
+				"cost": 416300,
 				"STATE_ID": "09",
 				"STATE_NAME": "Connecticut",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 9,
 			"geometry": {
@@ -5097,8 +5337,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 463000,
-				"isState": true
+				"cost": 463000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -5235,10 +5485,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 349600,
+				"cost": 349600,
 				"STATE_ID": "33",
 				"STATE_NAME": "New Hampshire",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 33,
 			"geometry": {
@@ -5408,10 +5668,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 520000,
+				"cost": 520000,
 				"STATE_ID": "44",
 				"STATE_NAME": "Rhode Island",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 44,
 			"geometry": {
@@ -5497,10 +5767,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 563000,
+				"cost": 563000,
 				"STATE_ID": "50",
 				"STATE_NAME": "Vermont",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 50,
 			"geometry": {
@@ -5670,8 +5950,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 479000,
-				"isState": true
+				"cost": 479000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -5824,10 +6114,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 450000,
+				"cost": 450000,
 				"STATE_ID": "12",
 				"STATE_NAME": "Florida",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 12,
 			"geometry": {
@@ -6041,8 +6341,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 368000,
-				"isState": true
+				"cost": 368000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -6275,8 +6585,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 550000,
-				"isState": true
+				"cost": 550000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -6489,8 +6809,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 510200,
-				"isState": true
+				"cost": 510200,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -6679,10 +7009,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 440000,
+				"cost": 440000,
 				"STATE_ID": "17",
 				"STATE_NAME": "Illinois",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 17,
 			"geometry": {
@@ -7048,8 +7388,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 335000,
-				"isState": true
+				"cost": 335000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -7286,8 +7636,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 643000,
-				"isState": true
+				"cost": 643000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -7644,10 +8004,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 270000,
+				"cost": 270000,
 				"STATE_ID": "37",
 				"STATE_NAME": "North Carolina",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 37,
 			"geometry": {
@@ -7857,8 +8227,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 384000,
-				"isState": true
+				"cost": 384000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -8131,8 +8511,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 585000,
-				"isState": true
+				"cost": 585000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -8377,8 +8767,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 519000,
-				"isState": true
+				"cost": 519000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "MultiPolygon",
@@ -8713,10 +9113,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 246000,
+				"cost": 246000,
 				"STATE_ID": "55",
 				"STATE_NAME": "Wisconsin",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 55,
 			"geometry": {
@@ -9154,10 +9564,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 236700,
+				"cost": 236700,
 				"STATE_ID": "54",
 				"STATE_NAME": "West Virginia",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 54,
 			"geometry": {
@@ -9499,10 +9919,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 366000,
+				"cost": 366000,
 				"STATE_ID": "10",
 				"STATE_NAME": "Delaware",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 10,
 			"geometry": {
@@ -9600,8 +10030,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 478000,
-				"isState": true
+				"cost": 478000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -9678,10 +10118,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 195000,
+				"cost": 195000,
 				"STATE_ID": "24",
 				"STATE_NAME": "Maryland",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 24,
 			"geometry": {
@@ -9903,10 +10353,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 324000,
+				"cost": 324000,
 				"STATE_ID": "34",
 				"STATE_NAME": "New Jersey",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 34,
 			"geometry": {
@@ -10060,8 +10520,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 272000,
-				"isState": true
+				"cost": 272000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -10318,10 +10788,20 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 310000,
+				"cost": 310000,
 				"STATE_ID": "42",
 				"STATE_NAME": "Pennsylvania",
-				"isState": true
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"id": 42,
 			"geometry": {
@@ -10531,8 +11011,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 364000,
-				"isState": true
+				"cost": 364000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -10665,8 +11155,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 220000,
-				"isState": true
+				"cost": 220000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "Polygon",
@@ -11211,8 +11711,18 @@
 				"mapcolor9": 1,
 				"mapcolor13": 1,
 				"featureclass": "Admin-1 scale rank",
-				"costo": 412000,
-				"isState": true
+				"cost": 412000,
+				"isState": true,
+				"remodel": {
+					"bathroom": 26000,
+					"kitchen" : 32000,
+					"bedroom" : 35000,
+					"living Room":30000,
+					"dining Room" : 28000,
+					"Master Bathroom" : 33400
+				},
+				"cost_total" : 3460000,
+				"profit":1800
 			},
 			"geometry": {
 				"type": "MultiPolygon",

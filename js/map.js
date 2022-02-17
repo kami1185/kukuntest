@@ -1,11 +1,14 @@
-document.addEventListener("DOMContentLoaded", function() {
+const PATH = new Router(PATHS)
 
-    
+document.addEventListener("DOMContentLoaded", function() {
+  
+  const filepath = window.location.origin
+
     //accedo con mi token a mapbox
 	mapboxgl.accessToken = 'pk.eyJ1Ijoia2FtaTExODUiLCJhIjoiY2t6bjc4dXB2NW1xajJ2cGhjYnBxZHI2bSJ9.qrCoJGjLQFWm_2AJK-6AwA';
     //mapboxgl.workerUrl = "https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl-csp-worker.js";
     const map = new mapboxgl.Map({
-        container: 'map-us', // id del container
+        container: 'map', // id del container
         style: 'mapbox://styles/mapbox/light-v10', // style URL
         center: [-98, 38.88], // posicion del mapa dentro el iframe
         minZoom: 3,
@@ -26,55 +29,54 @@ document.addEventListener("DOMContentLoaded", function() {
         // county polygons uploaded as vector tiles
         map.addSource('usa', {
             'type': 'geojson',
-            'data': 'map/us.geojson',//load the json file in the path: /map/us.geojson
+            'data': ''+filepath+'/kukun/map/us.geojson',//load the json file in the path: /map/us.geojson
             'generateId': true
         });
-
     
-        // map.addLayer({
+        map.addLayer({
             
-        //     'id': 'states',
-        //     'type': 'fill',
-        //     'source': 'usa',
-        //     'paint': {
-        //         //'fill-color': '#627BC1',
-        //         'fill-color': [
-        //             'interpolate',
-        //             ['linear'],
-        //             ['get', 'costo'],
-        //             0,
-        //             '#F2F12D',
-        //             100000,
-        //             '#EED322',
-        //             150000,
-        //             '#E6B71E',
-        //             200000,
-        //             '#DA9C20',
-        //             250000,
-        //             '#CA8323',
-        //             300000,
-        //             '#B86B25',
-        //             350000,
-        //             '#A25626',
-        //             400000,
-        //             '#8B4225',
-        //             450000,
-        //             '#723122',
-        //             500000,
-        //             '#f76918',
-        //             550000,
-        //             '#f73918',
-        //             600000,
-        //             '#f71818'
-        //             ],
-        //         'fill-opacity': [
-        //             'case',
-        //             ['boolean', ['feature-state', 'hover'], false],
-        //             1.3,
-        //             0.82
-        //         ]
-        //     }
-        // }); 
+            'id': 'states',
+            'type': 'fill',
+            'source': 'usa',
+            'paint': {
+                //'fill-color': '#627BC1',
+                'fill-color': [
+                    'interpolate',
+                    ['linear'],
+                    ['get', 'cost'],
+                    0,
+                    '#F2F12D',
+                    100000,
+                    '#EED322',
+                    150000,
+                    '#E6B71E',
+                    200000,
+                    '#DA9C20',
+                    250000,
+                    '#CA8323',
+                    300000,
+                    '#B86B25',
+                    350000,
+                    '#A25626',
+                    400000,
+                    '#8B4225',
+                    450000,
+                    '#723122',
+                    500000,
+                    '#f76918',
+                    550000,
+                    '#f73918',
+                    600000,
+                    '#f71818'
+                    ],
+                'fill-opacity': [
+                    'case',
+                    ['boolean', ['feature-state', 'hover'], false],
+                    1.3,
+                    0.82
+                ]
+            }
+        }); 
 
         // le doy un borde al mapa 
         map.addLayer({
@@ -98,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
               paint: {
                 // increase weight as diameter breast height increases
                 'heatmap-weight': {
-                  property: 'costo',
+                  property: 'cost',
                   type: 'exponential',
                   stops: [
                     [1, 0],
@@ -158,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function() {
               paint: {
                 // increase the radius of the circle as the zoom level and dbh value increases
                 'circle-radius': {
-                  property: 'costo',
+                  property: 'cost',
                   type: 'exponential',
                   stops: [
                     [{ zoom: 15, value: 1 }, 5],
@@ -168,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   ]
                 },
                 'circle-color': {
-                  property: 'costo',
+                  property: 'cost',
                   type: 'exponential',
                   stops: [
                     [0, 'rgba(236,222,239,0)'],
@@ -207,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // creo la popup con el contenido html 
             // tomando los datos del file json en feature.properties
             popup.setLngLat(e.lngLat)//set de las coordenadas longitud y latitud para ubicar la popup
-                .setHTML(setPopupHtml(feature.properties))//envio los datos del file json para crear la popup
+                .setHTML(setPopupBoxHtml(feature.properties))//envio los datos del file json para crear la popup
                 .addTo(map);
 
             // retoma el color inicial cuando paso el mouse 
@@ -218,11 +220,14 @@ document.addEventListener("DOMContentLoaded", function() {
                         { source: 'usa', id: hoveredStateId },
                         { hover: false }
                     );
+
+                    
                 }
-                    hoveredStateId = e.features[0].id;
-                    map.setFeatureState(
-                        { source: 'usa', id: hoveredStateId },
-                        { hover: true }
+                  hoveredStateId = e.features[0].id;
+                  map.setFeatureState(
+                      { source: 'usa', id: hoveredStateId },
+                      { hover: true }
+                    
                 );
             }
 
@@ -246,20 +251,27 @@ document.addEventListener("DOMContentLoaded", function() {
             
             new mapboxgl.Popup()
             .setLngLat(e.lngLat)
-            .setHTML(`<strong>Cost:</strong> ${e.features[0].properties.costo}`)
+            .setHTML(`<strong>Cost:</strong> ${e.features[0].properties.cost}`)
             .addTo(map);
         });
     });
 
 
     //creo la popup con elementos html
-    function setPopupHtml(data){
-		console.log(data.name)
-        // <a href="${data.wikipedia}" target="_blank"></a>
-        //modifico los elementos con css
-        return `<strong style="color:#0529ca; font-size: 1.2em">${data.name}</strong>
-                <p style="color:#19181b; font-size: 1.25em">Approximate cost: $ <span style="color:#0529ca">${data.costo}</span></p>`
-	}
+    function setPopupBoxHtml(data){
+
+      let withoutSpacesNameState = data.name.toLowerCase().replaceAll(' ', '');
+      // let url = '/estimator/kitchen-renovation-cost/'+ withoutSpacesNameState
+      PATH.createUrl(withoutSpacesNameState)
+      PATH.templateBoxPanelData(data)
+
+      // <a href="${data.wikipedia}" target="_blank"></a>
+      //modifico los elementos con css
+      return `<strong style="color:#0529ca; font-size: 1.2em">${data.name}</strong>
+              <p style="color:#19181b; font-size: 1.25em">Approximate cost: $ <span style="color:#0529ca">${data.cost}</span></p>`
+	  
+      
+    }
 
     
 });

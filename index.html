@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="UTF-8" />
         <title>Kukun</title>
@@ -16,88 +16,102 @@
         <div class="container-fluid">
 
             <header class="fixed-top header">
-                <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">
-                        <img src="https://content.mykukun.com/webapp/img/logos/kukun-logo.svg" alt=""  class="d-inline-block align-text-top">
-                        
-                      </a>
-                    </div>
-                  </nav>
             </header>
-
-            <h1>Kukun</h1>
-
-            <div class="row">
-                <div class="col-8">
-                    <!-- div que contiene el mapa -->
-                    <div id='map-us' style='width: 800px; height: 500px;'></div>
-
-                    <!-- leyenda de los precios aproximativos -->
-                    <div id="state-legend" class="legend">
-                        <h4>Approximate costs</h4>
-                        <div><span style="background-color: #f71818"></span>$600,000</div>
-                        <div><span style="background-color: #f73918"></span>$550,000</div>
-                        <div><span style="background-color: #f76918"></span>$500,000</div>
-                        <div><span style="background-color: #723122"></span>$450,000</div>
-                        <div><span style="background-color: #8b4225"></span>$400,000</div>
-                        <div><span style="background-color: #a25626"></span>$350,000</div>
-                        <div><span style="background-color: #b86b25"></span>$300,000</div>
-                        <div><span style="background-color: #ca8323"></span>$250,000</div>
-                        <div><span style="background-color: #da9c20"></span>$200,000</div>
-                        <div><span style="background-color: #e6b71e"></span>$150,000</div>
-                        <div><span style="background-color: #eed322"></span>$100,000</div>
-                        <div><span style="background-color: #f2f12d"></span>0</div>
-                    </div>
+            <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" onclick="PATH.load('kukun')">
+                        <img src="https://content.mykukun.com/webapp/img/logos/kukun-logo.svg" alt=""  class="d-inline-block align-text-top"> 
+                    </a>
                 </div>
-                <div class="col-4">
-                    <div class="card-info" id="investing-panel-image">
-                        <p class="card-title">
-                            Approximate cost for state
-                        </p>
-                        <div class="card-panel">
-                            <p class="title-state">
-                                Maximum Return on Investment
-                            </p>
-                            <div class="h-investment-panel-content k-spacing-x1">
-                                <p class="k-content k-content-medium k-investment-panel-p-title h-investment-panel-flex">
-                                    Increase in home value <span class="k-text-right"> $45,365</span>
-                                </p>
-                                <p class="k-content k-content-medium k-spacing-x1">
-                                    Remodel:
-                                </p>
-                                <ul>
-                                    <li class="k-notifications k-spacing-x1">
-                                        Kitchen
-                                    </li>
-                                    <li class="k-notifications k-spacing-x1">
-                                        Master Bathroom
-                                    </li>
-                                    <li class="k-notifications k-spacing-x1">
-                                        2nd bathroom
-                                    </li>
-                                    <li class="k-notifications k-spacing-x1">
-                                        Powder room
-                                    </li>
-                                </ul>
-                                <p class="k-content k-content-medium h-investment-panel-flex">
-                                    Cost to renovate <span class="k-text-right"> $ 42,240</span> 
-                                </p>
+            </nav>
+            
+            <section class="container-fluid">
+                <div class="row w-80 mx-auto">
+                    <div class=" col-md-7 col-sm-7">
+                        
+                        <!-- div container -->
+                        <div class="map-container mt-4 px-4 pb-1 box-card">
+
+                            <h1 class="fs-12  message-map">look at the incredible prices for you!</h1>
+
+                            <!-- div que contiene el mapa -->
+                            <div id='map'></div>
+                            
+                            <div id="state-legend" class="legend">
+                                <h4>Approximate costs</h4>
+                                <div><span style="background-color: #f71818"></span>$600,000</div>
+                                <div><span style="background-color: #f73918"></span>$550,000</div>
+                                <div><span style="background-color: #f76918"></span>$500,000</div>
+                                <div><span style="background-color: #723122"></span>$450,000</div>
+                                <div><span style="background-color: #8b4225"></span>$400,000</div>
+                                <div><span style="background-color: #a25626"></span>$350,000</div>
+                                <div><span style="background-color: #b86b25"></span>$300,000</div>
+                                <div><span style="background-color: #ca8323"></span>$250,000</div>
+                                <div><span style="background-color: #da9c20"></span>$200,000</div>
+                                <div><span style="background-color: #e6b71e"></span>$150,000</div>
+                                <div><span style="background-color: #eed322"></span>$100,000</div>
+                                <div><span style="background-color: #f2f12d"></span>0</div>
                             </div>
-                            <div class="k-h6 h-investment-panel-footer h-investment-panel-flex k-color-primary-light k-bg-home-manager">
-                                Profit <span class="k-text-right"> $ 3,125</span> 
+                        </div>
+                    </div>
+
+                    <div class=" col-md-5 col-sm-5">
+                        <!-- leyenda de los precios aproximativos -->
+                        
+                        <div class="box mt-4 px-4 pb-1 box-card">
+                            <p class="box-title">
+                                Approximate cost for state
+                            </p>
+                            <div class="box-panel">
+                                <p class="box-title-state box-color-cost">
+                                    Maximum Return on Investment in <span id="box-title-state"></span>
+                                </p>
+                                <div class="h-investment-panel-content k-spacing-x1" id="content-data">
+                                    <p class="k-content k-content-medium k-investment-panel-p-title h-investment-panel-flex">
+                                        Increase in home value <span id="box-aprox-cost" class="box-cost"> </span>
+                                    </p>
+                                    <p class="k-content k-content-medium k-spacing-x1">
+                                        Remodel:
+                                    </p>
+                                    <ul id="box-list-remodel">
+                                        <!-- <li class="k-notifications k-spacing-x1">
+                                            Kitchen
+                                        </li>
+                                        <li class="k-notifications k-spacing-x1">
+                                            Master Bathroom
+                                        </li>
+                                        <li class="k-notifications k-spacing-x1">
+                                            2nd bathroom
+                                        </li>
+                                        <li class="k-notifications k-spacing-x1">
+                                            Powder room
+                                        </li> -->
+                                    </ul>
+                                    <p id="cost_total" class="k-content k-content-medium h-investment-panel-flex">
+                                        Cost to renovate $<span id="box-cost-renovate" class="box-cost"></span> 
+                                    </p>
+                                </div>
+                                <div class="box-profit box-color-cost">
+                                    Profit $ <span id="box-cost-profit" class="box-cost"></span> 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
         </div>
 
         <!-- js de la libreria mapbox -->
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
-        <!-- js logica de programacion -->
-        <script src="js/map.js"></script>
+        
         <!-- js bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+        <!-- routing -->
+        <script src="routes/Router.js"></script>
+        <script src="routes/Routes.js"></script>
+        <!-- js logica de programacion -->
+        <script src="js/map.js"></script>
     </body>
 </html>
