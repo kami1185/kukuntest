@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'generateId': true
         });
     
+        //creo el choroplethmap
         map.addLayer({
             
             'id': 'states',
@@ -77,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 ]
             }
         }); 
-
+     
         // le doy un borde al mapa 
         map.addLayer({
             'id': 'state-borders',
@@ -196,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'waterway-label'
         );
         //-------------------------------------------------------------------------------
-        
+      
     
         //event hover cuando paso el mouse sobre un state
         map.on('mousemove', 'states', function(e) {

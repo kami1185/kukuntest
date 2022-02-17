@@ -61,12 +61,3 @@ class Router{
     }
  
 }
-
-// route = (event) => {
-//     event = event || window.event
-//     console.log(event)
-//     event.preventDefault()
-//     window.history.pushState({}, '', window.target.href)
-//     console.log(window.target.href)
-
-// }

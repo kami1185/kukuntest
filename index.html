@@ -10,18 +10,24 @@
         <link href="css/styles.css" rel="stylesheet">
         <!-- css bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
 
-        <div class="container-fluid">
+        <div class="container">
 
-            <header class="fixed-top header">
-            </header>
+
             <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
                 <div class="container-fluid">
                     <a class="navbar-brand" onclick="PATH.load('kukun')">
                         <img src="https://content.mykukun.com/webapp/img/logos/kukun-logo.svg" alt=""  class="d-inline-block align-text-top"> 
                     </a>
+                    <!-- <div class="col-lg-4 text-lg-left">
+						<p><a class="text-color mr-3" href="callto:+39478222165"><strong>Telefono</strong> +39 478222165  </a><strong>acde100@gmail.com</strong></p>
+                        <p>andres c@milo duarte eraso</p>
+					</div> -->
                 </div>
             </nav>
             
@@ -32,25 +38,27 @@
                         <!-- div container -->
                         <div class="map-container mt-4 px-4 pb-1 box-card">
 
-                            <h1 class="fs-12  message-map">look at the incredible prices for you!</h1>
+                            <h1 class="message-map">look at the incredible prices for you!</h1>
 
                             <!-- div que contiene el mapa -->
                             <div id='map'></div>
                             
                             <div id="state-legend" class="legend">
                                 <h4>Approximate costs</h4>
-                                <div><span style="background-color: #f71818"></span>$600,000</div>
-                                <div><span style="background-color: #f73918"></span>$550,000</div>
-                                <div><span style="background-color: #f76918"></span>$500,000</div>
-                                <div><span style="background-color: #723122"></span>$450,000</div>
-                                <div><span style="background-color: #8b4225"></span>$400,000</div>
-                                <div><span style="background-color: #a25626"></span>$350,000</div>
-                                <div><span style="background-color: #b86b25"></span>$300,000</div>
-                                <div><span style="background-color: #ca8323"></span>$250,000</div>
-                                <div><span style="background-color: #da9c20"></span>$200,000</div>
-                                <div><span style="background-color: #e6b71e"></span>$150,000</div>
-                                <div><span style="background-color: #eed322"></span>$100,000</div>
-                                <div><span style="background-color: #f2f12d"></span>0</div>
+                                <div style="text-align: center;">
+                                    <div><span style="background-color: #f71818"></span>$600,000</div>
+                                    <div><span style="background-color: #f73918"></span>$550,000</div>
+                                    <div><span style="background-color: #f76918"></span>$500,000</div>
+                                    <div><span style="background-color: #723122"></span>$450,000</div>
+                                    <div><span style="background-color: #8b4225"></span>$400,000</div>
+                                    <div><span style="background-color: #a25626"></span>$350,000</div>
+                                    <div><span style="background-color: #b86b25"></span>$300,000</div>
+                                    <div><span style="background-color: #ca8323"></span>$250,000</div>
+                                    <div><span style="background-color: #da9c20"></span>$200,000</div>
+                                    <div><span style="background-color: #e6b71e"></span>$150,000</div>
+                                    <div><span style="background-color: #eed322"></span>$100,000</div>
+                                    <div><span style="background-color: #f2f12d"></span>0</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -58,13 +66,16 @@
                     <div class=" col-md-4 col-sm-4">
                         <!-- leyenda de los precios aproximativos -->
                         
-                        <div class="box mt-4 px-4 pb-1 box-card">
+                        <div class="box mt-4 px-4 pb-5 box-card">
+                            <p class=" box-font-size">
+                                Maximum Return on Investment
+                            </p>
                             <p class="box-title box-font-size">
                                 Approximate cost for state
                             </p>
                             <div class="box-panel">
-                                <p class="box-title-state box-color-cost box-font-size">
-                                    Maximum Return on Investment in <span id="box-title-state"></span>
+                                <p id="box-title-state" class="box-title-state box-color-cost box-font-size">
+                                    State
                                 </p>
                                 <div id="content-data">
                                     <p class="box-remodel-font-size">
@@ -74,20 +85,8 @@
                                         Remodel:
                                     </p>
                                     <ul id="box-list-remodel">
-                                        <!-- <li class="k-notifications k-spacing-x1">
-                                            Kitchen
-                                        </li>
-                                        <li class="k-notifications k-spacing-x1">
-                                            Master Bathroom
-                                        </li>
-                                        <li class="k-notifications k-spacing-x1">
-                                            2nd bathroom
-                                        </li>
-                                        <li class="k-notifications k-spacing-x1">
-                                            Powder room
-                                        </li> -->
                                     </ul>
-                                    <p id="cost_total" class="k-content k-content-medium h-investment-panel-flex">
+                                    <p id="cost_total" class="box-font-size">
                                         Cost to renovate $<span id="box-cost-renovate" class="box-cost"></span> 
                                     </p>
                                 </div>
@@ -97,8 +96,30 @@
                             </div>
                         </div>
                     </div>
+
+
+                    
                 </div>
             </section>
+
+            <footer>
+                <div class="copyright py-4 bg-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="coltext-sm-left text-center">
+                                <p class="mb-0">Copyright
+                                    <script>
+                                    var CurrentYear = new Date().getFullYear()
+                                    document.write(CurrentYear)
+                                    </script> 
+                                    © Andres C@milo Duarte Eraso 
+                                    <p><a class="text-color mr-3" href="tel:+39478222165">+39 478222165</a><strong>  acde100@gmail.com</strong></p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
         </div>
 
